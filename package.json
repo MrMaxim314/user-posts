@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "name": "user-post-app",
+  "version": "1.0.0",
+  "description": "Test Task",
+  "main": "index.js",
+  "devDependencies": {
+    "express-handlebars": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Passport.js",
+    "MongoDB",
+    "NodeJS"
+  ],
+  "author": "Maxim Zhelneruk",
+  "license": "ISC"
+}

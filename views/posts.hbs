@@ -1,0 +1,38 @@
+<section id="content">
+
+    <div class="container">
+
+        <form action="/add" method="post" enctype="multipart/form-data">
+            <p>
+                <input type="text" name="content"  class="input" placeholder="Write something">
+            </p>
+
+            <p>
+                <input type="file" name="pic" class="input" placeholder="Send image">
+            </p>
+
+            <p>
+                <input type="submit" value="Send" class="btn">
+            </p>
+        </form>
+
+        <a href="/logout" class="link">Logout</a>
+
+        <div class="display-posts">
+
+            {{# each contents }}
+                <div class="post">
+                    <div class="img">
+                        <img src="{{imgSrc}}" alt="image">
+                    </div>
+                    <div class="content">
+                        {{content}}
+                    </div>
+                </div>
+            {{/each}}
+
+        </div>
+
+    </div>
+
+</section>
